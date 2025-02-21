@@ -7,11 +7,11 @@ Ejercicio : comienza co A
 • ESI232B2 
 • Jorge Zaldivar 
 • 13/feb/25 
-• 1 hora aprox
+• 5 min
 """
 
 Palabra = input("Dime una palabra que quisieras saber que empiece con A: \n ").lower()
-if Palabra[0]== "a" : 
+if Palabra[0]== "a" or Palabra[0]== "á": 
     print("Esta palbra empieza con A ")
 else:
     print("Esta palbra no empieza con A")
