@@ -10,8 +10,8 @@ Ejercicio : comienza co A
 • 5 min
 """
 
-Palabra = input("Dime una palabra que quisieras saber que empiece con A: \n ").lower()
-if Palabra[0]== "a" or Palabra[0]== "á": 
-    print("Esta palbra empieza con A ")
+Palabra = input("Dime una palabra que quisieras saber que empiece con A: \n ")
+if Palabra.lower()[0]== "a" or Palabra[0]== "á": 
+    print(Palabra, " empieza con A ")
 else:
-    print("Esta palbra no empieza con A")
+    print(Palabra , "no empieza con A")
